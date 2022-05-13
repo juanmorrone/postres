@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=PT+Serif&display=swap');
+
+
+
+
+
+
+*{ 
+    margin: 0; 
+padding: 0;
+
+box-sizing: border-box;
+}
+
+body{ 
+
+background-image: url(../img/fondo.jpg);
+
+
+font-family: 'PT Serif', serif;
+
+ }
+
+
+
+
+#contenedor{ 
+width: 960px;
+height: 700px;
+background-color: #2d3436;
+margin-left: auto;
+margin-right: auto;
+  }
+
+
+  #cabecera{ 
+width: 960px;
+height: 150px;
+background-color: #2d3436;
+
+  }
+
+
+  #menu{ 
+width: 960px;
+height: 50px;
+background-color: #fab1a0;
+
+  }
+
+
+#contenido{ 
+width: 960px;
+height: 1350px;
+background-color: #dfe6e9;
+
+  }
+
+
+#pie{ 
+width: 960px;
+height: 50px;
+background-color: #fab1a0;
+
+  }
+
+
+#menu a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+#menu li{
+    display:inline-block;
+    width:10%;
+    padding:8px 10px;
+    background-color:#dfe6e9;
+    border:1px solid #000;
+    text-align:center;
+    color:#000;
+    }
+ #menu li:hover{
+    background-color:#dfe6e9;
+    color:#000;
+    }
+
